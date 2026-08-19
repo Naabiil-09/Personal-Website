@@ -64,6 +64,7 @@ jobs:
   deploy:
     # available images: https://github.com/actions/runner-images#available-images
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v4
@@ -91,10 +92,26 @@ jobs:
           valueFile: "_config.yml"
           propertyPath: "giscus.repo"
           value: ${{ github.repository }}
-      - name: Install and Build 🔧
+      - name: Install ImageMagick 🖼️
+        timeout-minutes: 5
         run: |
-          sudo apt-get update && sudo apt-get install -y imagemagick
+          if command -v magick >/dev/null 2>&1 || command -v convert >/dev/null 2>&1; then
+            echo "ImageMagick is already available; skipping apt."
+          else
+            sudo apt-get \
+              -o Acquire::Retries=3 \
+              -o Acquire::http::Timeout=20 \
+              -o Acquire::https::Timeout=20 \
+              update
+            sudo apt-get install -y --no-install-recommends imagemagick
+          fi
+      - name: Install Python build dependencies 🐍
+        timeout-minutes: 5
+        run: |
           pip3 install --upgrade nbconvert
+      - name: Build site 🔧
+        timeout-minutes: 10
+        run: |
           export JEKYLL_ENV=production
           bundle exec jekyll build
       - name: Purge unused CSS 🧹
