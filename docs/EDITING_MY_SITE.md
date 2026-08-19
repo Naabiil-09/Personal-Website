@@ -17,19 +17,19 @@ Changes become public only after they are committed and pushed.
 
 ## 2. What to edit
 
-| Goal | File or folder |
-| --- | --- |
-| Change homepage biography | `_pages/about.md` |
-| Change research narrative | `_pages/research.md` |
-| Change teaching narrative | `_pages/teaching.md` |
-| Add or update a CV item | `_data/cv.yml` |
-| Add a publication | `_bibliography/papers.bib` |
-| Add a project | `_projects/` |
-| Add a short announcement | `_news/` |
-| Change email/profile links | `_data/socials.yml` |
-| Change name, description, or site URL | `_config.yml` |
-| Replace homepage photograph | `assets/img/mostafa-zaman.jpg` |
-| Replace the downloadable CV | `assets/pdf/Academic_Mostafa_Zaman_CV.pdf` |
+| Goal                                  | File or folder                             |
+| ------------------------------------- | ------------------------------------------ |
+| Change homepage biography             | `_pages/about.md`                          |
+| Change research narrative             | `_pages/research.md`                       |
+| Change teaching narrative             | `_pages/teaching.md`                       |
+| Add or update a CV item               | `_data/cv.yml`                             |
+| Add a publication                     | `_bibliography/papers.bib`                 |
+| Add a project                         | `_projects/`                               |
+| Add a short announcement              | `_news/`                                   |
+| Change email/profile links            | `_data/socials.yml`                        |
+| Change name, description, or site URL | `_config.yml`                              |
+| Replace homepage photograph           | `assets/img/mostafa-zaman.jpg`             |
+| Replace the downloadable CV           | `assets/pdf/Academic_Mostafa_Zaman_CV.pdf` |
 
 Avoid editing `_site/`; it is generated and overwritten.
 
