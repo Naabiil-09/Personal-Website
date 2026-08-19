@@ -2,6 +2,20 @@
 design:
   theme: classic
   page:
-    size: a4
+    size: us-letter
     show_footer: false
     show_top_note: false
+  colors:
+    body: rgb(30, 41, 59)
+    name: rgb(11, 31, 58)
+    headline: rgb(15, 118, 110)
+    connections: rgb(51, 65, 85)
+    section_titles: rgb(15, 118, 110)
+    links: rgb(3, 105, 161)
+    footer: rgb(100, 116, 139)
+    top_note: rgb(100, 116, 139)
+  typography:
+    font_family: Source Sans 3
+    line_spacing: 0.6em
+    alignment: justified
+    date_and_location_column_alignment: right

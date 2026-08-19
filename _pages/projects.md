@@ -2,11 +2,10 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Selected platforms and research programs connecting intelligent algorithms to physical infrastructure.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
-horizontal: false
+horizontal: true
 ---
 
 <!-- pages/projects.md -->

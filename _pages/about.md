@@ -2,33 +2,51 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Ph.D. in Electrical & Computer Engineering · AI, control, and optimization for cyber-physical systems
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image: mostafa-zaman.jpg
+  image_circular: false
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p><strong>Mostafa Zaman, Ph.D.</strong></p>
+    <p>Richmond, Virginia, USA</p>
+    <p>Outstanding Graduate Research Award, VCU, 2025</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: true
+social: true
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: true
+  scrollable: true
+  limit: 4
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
+  scrollable: false
+  limit: 3
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am an electrical and computer engineer whose research brings together **artificial intelligence, control, and optimization** to make large-scale cyber-physical systems safer, more adaptive, and more resilient. I completed my Ph.D. in Electrical and Computer Engineering at [Virginia Commonwealth University](https://egr.vcu.edu/departments/electrical/) in 2026 under the supervision of Dr. Sherif Abdelwahed.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My work develops hierarchical and constraint-aware learning methods for interconnected urban infrastructure, with applications in smart buildings, intelligent transportation, electric-vehicle charging, microgrids, and smart healthcare. A defining part of my research is end-to-end validation: moving from mathematical models and algorithms to sensing, embedded platforms, data pipelines, and closed-loop experiments on the [OpenCyberCity](https://occtestbed.com/) testbed.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+<div style="background: linear-gradient(135deg, #0b1f3a 0%, #0f766e 100%); color: #f8fafc; border-radius: 14px; padding: 1.4rem 1.6rem; margin: 1.8rem 0; box-shadow: 0 10px 28px rgba(15, 23, 42, 0.18);">
+  <h3 style="color: #ffffff; margin-top: 0;">Research at a glance</h3>
+  <p style="margin-bottom: 0.35rem;"><strong>Methods:</strong> hierarchical and safe reinforcement learning, bi-level optimization, uncertainty-aware forecasting, model predictive control, and anomaly detection.</p>
+  <p style="margin-bottom: 0.35rem;"><strong>Systems:</strong> smart cities, buildings, transportation, power and energy systems, IoT, and distributed cyber-physical infrastructure.</p>
+  <p style="margin-bottom: 0;"><strong>Impact:</strong> 20+ peer-reviewed papers, 300+ citations, interdisciplinary testbed development, and mentorship of more than 20 students.</p>
+</div>
+
+## Current directions
+
+- **Safe coordination for electrified infrastructure:** scalable decision-making for EV charging, smart grids, and microgrids under operational constraints.
+- **Resilient sensing-to-control pipelines:** trustworthy data, uncertainty estimation, anomaly detection, and closed-loop control for real deployments.
+- **Learning for interconnected systems:** multi-level and multi-objective methods that coordinate decisions across buildings, mobility, energy, and healthcare.
+- **Testbed-driven research and education:** reproducible platforms that let students connect algorithms with physical systems.
+
+## Recognition
+
+My work has received the **VCU Outstanding Graduate Research Award (2024–2025)**, the **Best Poster Award at IEEE SMARTCOMP 2024**, and travel awards from IEEE ITEC and the VCU College of Engineering. I also review for journals and conferences across artificial intelligence, control, energy, and smart-city systems.
+
+I welcome conversations about research collaboration, student mentorship, and academic opportunities. Please reach me at [zamanm@vcu.edu](mailto:zamanm@vcu.edu).

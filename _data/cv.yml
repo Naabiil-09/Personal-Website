@@ -1,189 +1,252 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
-  image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  name: Mostafa Zaman
+  headline: Researcher in AI, Control & Cyber-Physical Systems
+  location: Richmond, Virginia, USA
+  email: zamanm@vcu.edu
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
     - network: GitHub
-      username: example
+      username: Naabiil-09
     - network: LinkedIn
-      username: example
+      username: mostafa-zaman-ph-d-43b7baa7
+    - network: Google Scholar
+      username: Hk4IWoIAAAAJ
+    - network: ResearchGate
+      username: Mostafa-Zaman
+    - network: ORCID
+      username: 0000-0002-4374-2763
 
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+  custom_connections:
+    - placeholder: OpenCyberCity
+      url: https://occtestbed.com/
+      fontawesome_icon: city
 
   sections:
+    Profile:
+      - Electrical and computer engineer developing hierarchical, constraint-aware, and uncertainty-informed learning and control methods for complex cyber-physical systems. Research applications span smart buildings, intelligent transportation, EV charging, microgrids, energy systems, IoT, and smart healthcare, with an emphasis on end-to-end experimental validation.
+
+    Research Interests:
+      - label: Methods
+        details: Hierarchical and safe reinforcement learning; bi-level and multi-objective optimization; model predictive control; probabilistic forecasting; anomaly detection
+      - label: Systems
+        details: Smart cities; cyber-physical systems; smart buildings; intelligent transportation; smart grids and microgrids; IoT and sensor networks
+      - label: Practice
+        details: Testbed design; sensing and embedded integration; data pipelines; closed-loop experimentation; reproducible research
+
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+      - institution: Virginia Commonwealth University
+        area: Electrical and Computer Engineering
+        degree: Ph.D.
+        location: Richmond, Virginia, USA
+        start_date: 2022-12
+        end_date: 2026
+        summary: Dissertation — A Hierarchical Reinforcement Learning-Based Framework for Smart Cities Management
         highlights:
-          - Description 1.
-          - Description 2.
+          - Advisor — Dr. Sherif Abdelwahed
+          - Multi-level, multi-objective deep reinforcement learning for coordinated smart buildings, transportation, and healthcare
+      - institution: Virginia Commonwealth University
+        area: Electrical and Computer Engineering
+        degree: M.S.
+        location: Richmond, Virginia, USA
+        start_date: 2018-08
+        end_date: 2022-12
+      - institution: Bangladesh University of Engineering and Technology
+        area: Electrical and Electronic Engineering
+        degree: B.S.
+        location: Dhaka, Bangladesh
+        start_date: 2010-05
+        end_date: 2015-09
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+    Research Experience:
+      - company: Virginia Commonwealth University
+        position: Graduate Research Assistant — OpenCyberCity
+        location: Richmond, Virginia, USA
+        start_date: 2018-08
+        end_date: 2026
+        summary: Developed intelligent control, optimization, data analytics, and experimental infrastructure for a modular smart-city cyber-physical testbed.
         highlights:
-          - Description 1.
-          - Description 2.
+          - Built learning and optimization pipelines for smart buildings, transportation, water, energy, and healthcare applications.
+          - Developed bi-level, multi-objective, and reinforcement-learning components for interconnected infrastructure under operational constraints.
+          - Integrated sensors, embedded hardware, middleware, data pipelines, dashboards, and closed-loop control systems.
+          - Mentored more than 20 high-school, undergraduate, and graduate researchers.
+          - Contributed to peer-reviewed publications, posters, demonstrations, and grant-related activities.
 
-    Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+    Professional Experience:
+      - company: Energypac Engineering Limited
+        position: Assistant Engineer (R&D), Power Transformer Division
+        location: Dhaka, Bangladesh
+        start_date: 2016-03
+        end_date: 2018-06
         highlights:
-          - Relativity
-          - Description 2.
+          - Designed 132/11 kV and 33/11 kV power transformers, including general arrangements, guaranteed technical particulars, and nameplates.
+          - Managed core-coil assembly requirements, conductor and core requisitions, OLTC specifications, and winding details.
+          - Prepared costing sheets and technical documentation for transformer-manufacturing projects.
+          - Completed ABB training on safety of on-load tap changers and transformer protection.
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+    Teaching Experience:
+      - company: Virginia Commonwealth University
+        position: Teaching Assistant, Electrical and Computer Engineering
+        location: Richmond, Virginia, USA
+        start_date: 2018-08
+        end_date: 2026
+        summary: Supported instruction, laboratories, assessment, office hours, and student mentoring across core ECE courses.
         highlights:
-          - Description 1.
-          - Description 2.
+          - Signals and Systems — continuous/discrete-time systems, convolution, Fourier analysis, Laplace and Z transforms.
+          - Microcomputer Systems — Vivado workflows, simulation, hardware interfaces, and real-time applications.
+          - Digital Logic Design — five semesters of digital circuits and FPGA laboratories.
+          - Engineering Programming — five semesters of C programming, algorithms, and structured problem solving.
+          - Industrial Automation, Digital Systems, and Advanced Engineering Programming.
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
-
-    Awards:
-      - title: Nobel Prize in Physics
+    Selected Publications:
+      - title: A Review of IoT-Based Smart City Development and Management
         authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
-
-      - title: Max Planck Medal
+          - M. Zaman
+          - N. Puryear
+          - S. Abdelwahed
+          - N. Zohrabi
+        journal: Smart Cities
+        date: 2024-06
+        doi: 10.3390/smartcities7030061
+      - title: A Multi-Level Reinforcement Learning Framework for Smart Building Management
         authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
-
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
+          - M. Zaman
+          - S. Iannucci
+          - N. Zohrabi
+          - S. Abdelwahed
+        journal: 13th IEEE Conference on Technologies for Sustainability (SusTech)
+        date: 2026-04
+      - title: Graph-Based Bi-Level Reinforcement Learning for Coordinated EV Fast Charging Under Distribution Constraints
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
-
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
+          - M. Zaman
+          - S. Abdelwahed
+        journal: IEEE Transportation Electrification Conference & Expo (ITEC)
+        date: 2026
+      - title: Integrative ITS Platform for Enhanced Urban Mobility in Smart Cities
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
-
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
+          - M. Zaman
+          - A. Malik
+          - D. Gubay
+          - A. DeWitt
+          - S. Varzaneh
+          - N. Zohrabi
+          - S. Abdelwahed
+        journal: IEEE International Conference on Ubiquitous Intelligence and Computing
+        date: 2025-08
+      - title: A Machine Learning-Based Temperature Control and Security Protection for Smart Buildings
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+          - M. Zaman
+          - M. Al Islam
+          - N. Zohrabi
+          - S. Abdelwahed
+        journal: IEEE International Conference on Smart Computing (SMARTCOMP)
+        date: 2024-07
+        doi: 10.1109/SMARTCOMP61445.2024.00070
+      - title: Demand-Response Prediction in Smart Grids Using Machine Learning Techniques
+        authors:
+          - M. Zaman
+          - S. Saha
+          - N. Zohrabi
+          - S. Abdelwahed
+        journal: IEEE Power & Energy Society Innovative Smart Grid Technologies Conference
+        date: 2024-02
+        doi: 10.1109/ISGT59692.2024.10454224
+      - title: Optimizing Smart City Water Distribution Systems Using Deep Reinforcement Learning
+        authors:
+          - M. Zaman
+          - A. Tantawy
+          - S. Abdelwahed
+        journal: IEEE HONET
+        date: 2023-12
+        doi: 10.1109/HONET59747.2023.10374894
+      - title: A Decision Support System for Cyber Physical Systems under Disruptive Events — Smart Building Application
+        authors:
+          - M. Zaman
+          - R. Eini
+          - N. Zohrabi
+          - S. Abdelwahed
+        journal: IEEE International Smart Cities Conference
+        date: 2022-09
+        doi: 10.1109/ISC255366.2022.9922493
+      - title: Uncertainty Estimation in Power Consumption of a Smart Home Using Bayesian LSTM Networks
+        authors:
+          - M. Zaman
+          - S. Saha
+          - N. Zohrabi
+          - S. Abdelwahed
+        journal: IEEE International Symposium on Advanced Control of Industrial Processes
+        date: 2022-08
+        doi: 10.1109/AdCONIP55568.2022.9894187
+      - title: Adaptive Control for Smart Water Distribution Systems
+        authors:
+          - M. Zaman
+          - M. Al Islam
+          - A. Tantawy
+          - C. J. Fung
+          - S. Abdelwahed
+        journal: IEEE International Smart Cities Conference
+        date: 2021-09
+        doi: 10.1109/ISC253183.2021.9562812
 
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+    Technical Skills:
+      - label: Programming
+        details: Python; MATLAB; C; JavaScript; LaTeX
+      - label: Machine Learning & AI
+        details: PyTorch; TensorFlow; Keras; Scikit-learn; deep reinforcement learning; Bayesian deep learning
+      - label: Data & Visualization
+        details: Pandas; NumPy; Matplotlib; Seaborn; Jupyter
+      - label: Control & Simulation
+        details: Simulink; model predictive control; PSpice; OpenMarkov; PSAF
+      - label: Embedded & Digital Systems
+        details: Sensor integration; FPGA development; Vivado; VHDL; microcontroller programming; Proteus
+      - label: Development
+        details: Git/GitHub; Linux; HPC clusters; Visual Studio; reproducible experimentation
 
-    Languages:
-      - name: German
-        summary: "Native speaker"
-
-      - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
+    Grants & Research Programs:
+      - company: CCI CVN Smart City Testbed — Phase 2
+        position: Graduate Research Assistant
+        location: Richmond, Virginia, USA
+        start_date: 2022-08
+        end_date: 2026
         highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+          - Supported expansion of OpenCyberCity services, transportation components, and data and analytics capabilities.
+      - company: NSF Opioid-Crisis Planning Project
+        position: Graduate Research Assistant
+        location: Richmond, Virginia, USA
+        start_date: 2022-12
+        end_date: 2023-07
+        highlights:
+          - Contributed sensing, data-collection, predictive, and explainable-analytics planning for community-informed decision support.
+      - company: VCU–Meru Biotech Collaborative Research
+        position: Graduate Research Assistant
+        location: Richmond, Virginia, USA
+        start_date: 2022-01
+        end_date: 2022-08
+        highlights:
+          - Supported sensing-system development and experimental validation for molecular-binding detection.
 
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+    Honors & Awards:
+      - name: Outstanding Graduate Research Award — VCU College of Engineering
+        date: 2025
+        summary: Recognition for research excellence, leadership, mentorship, and contributions to OpenCyberCity.
+      - name: Best Poster Award — IEEE SMARTCOMP
+        date: 2024-06
+        summary: OpenCyberCity testbed progress in smart-city management.
+      - name: Travel Award — IEEE Transportation Electrification Conference & Expo
+        date: 2022
+      - name: Travel Awards — VCU ECE Department and College of Engineering
+        date: 2021–2022
+      - name: Bangladesh Sweden Trust Fund
+        date: 2018–2019
+      - name: Dean's List — Undergraduate Program
 
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+    Professional Service:
+      - label: Journal reviewer
+        details: IEEE Transactions on Artificial Intelligence; IEEE Open Journal of Control Systems; Frontiers in Energy Research — Smart Grids; Journal of Ambient Intelligence and Humanized Computing
+      - label: Conference reviewer
+        details: IEEE CCTA; IEEE IGESSC; IEEE ISC2; IEEE HONET; IEEE CICN; HPCS; CSNT; CSAE
+      - label: Memberships
+        details: IEEE; IEEE Young Professionals; IEEE Control Systems Society; IEEE Power Electronics Society; IEEE Systems Council
+
+    Mentoring:
+      - name: Student research mentoring
+        summary: Mentored more than 20 high-school, undergraduate, and graduate researchers in problem formulation, algorithm development, implementation, experimental validation, writing, and presentation.
