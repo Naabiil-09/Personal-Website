@@ -40,7 +40,9 @@ This thrust develops the theoretical foundation that links calibrated uncertaint
 
 ## Experimental foundation
 
-At VCU, I contributed to the development of [OpenCyberCity](https://occtestbed.com/), a modular 1:12-scale smart-city testbed for research in buildings, transportation, energy, manufacturing, healthcare, sensing, networking, and edge intelligence. My contributions span system integration, data and analytics pipelines, machine-learning models, optimization, closed-loop control, student mentorship, publications, and proposal development.
+At VCU, I contributed to the development of [OpenCyberCity](https://www.occtestbed.com/), a modular 1:12-scale smart-city testbed for research in buildings, transportation, energy, manufacturing, healthcare, sensing, networking, and edge intelligence. My contributions span system integration, data and analytics pipelines, machine-learning models, optimization, closed-loop control, student mentorship, publications, and proposal development.
+
+**[Visit the OpenCyberCity website →](https://www.occtestbed.com/)**
 
 ## Collaboration and mentoring
 

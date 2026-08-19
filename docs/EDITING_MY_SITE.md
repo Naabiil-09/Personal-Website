@@ -29,7 +29,7 @@ Changes become public only after they are committed and pushed.
 | Change email/profile links | `_data/socials.yml` |
 | Change name, description, or site URL | `_config.yml` |
 | Replace homepage photograph | `assets/img/mostafa-zaman.jpg` |
-| Change CV PDF design | `assets/rendercv/design.yaml` |
+| Replace the downloadable CV | `assets/pdf/Academic_Mostafa_Zaman_CV.pdf` |
 
 Avoid editing `_site/`; it is generated and overwritten.
 
@@ -86,6 +86,13 @@ Write the longer project description below the closing `---`. Lower `importance`
 
 ## 6. Update the CV
 
+The CV has two parts:
+
+- `_data/cv.yml` controls the readable CV page on the website.
+- `assets/pdf/Academic_Mostafa_Zaman_CV.pdf` is your original downloadable PDF.
+
+To replace the PDF, copy the new CV into `assets/pdf/` using the exact filename `Academic_Mostafa_Zaman_CV.pdf`. GitHub Desktop will detect the replacement; commit and push it normally.
+
 Edit `_data/cv.yml`. RenderCV is strict about indentation:
 
 - Use spaces, not tabs.
@@ -93,7 +100,7 @@ Edit `_data/cv.yml`. RenderCV is strict about indentation:
 - Put each list item after `-`.
 - Keep one entry type per section. For example, all education items use `institution`, `area`, and `degree`.
 
-When this file is pushed, `.github/workflows/render-cv.yml` validates it and generates `assets/rendercv/rendercv_output/Mostafa_Zaman_CV.pdf`.
+When this file is pushed, `.github/workflows/render-cv.yml` validates the website CV data and also generates a formatted backup PDF. The website's download button continues to use your original PDF in `assets/pdf/`.
 
 If RenderCV reports validation errors, expand the failed **RenderCV** step in GitHub Actions. The table shows the field location and rejected value. Fix that field in `_data/cv.yml`, commit, and push again.
 
@@ -142,7 +149,7 @@ url: https://naabiil-09.github.io
 baseurl: /Personal-Website
 ```
 
-On GitHub, open **Settings → Pages**. Under **Build and deployment**, select **GitHub Actions** as the source. The `Deploy` Action publishes the website.
+On GitHub, open **Settings → Pages**. Under **Build and deployment**, select **Deploy from a branch**, choose the `gh-pages` branch and `/(root)` folder, then save. The `Deploy site` workflow rebuilds that branch after every content update.
 
 If you rename the repository to `Naabiil-09.github.io`, change `baseurl` to an empty value and the public URL becomes `https://naabiil-09.github.io/`.
 

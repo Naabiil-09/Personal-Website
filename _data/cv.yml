@@ -18,7 +18,7 @@ cv:
 
   custom_connections:
     - placeholder: OpenCyberCity
-      url: https://occtestbed.com/
+      url: https://www.occtestbed.com/
       fontawesome_icon: city
 
   sections:

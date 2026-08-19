@@ -9,9 +9,7 @@ profile:
   image: mostafa-zaman.jpg
   image_circular: false
   more_info: >
-    <p><strong>Mostafa Zaman, Ph.D.</strong></p>
-    <p>Richmond, Virginia, USA</p>
-    <p>Outstanding Graduate Research Award, VCU, 2025</p>
+    <p>Outstanding Graduate Research Award<br>Virginia Commonwealth University, 2025</p>
 
 selected_papers: true
 social: true
@@ -29,10 +27,14 @@ latest_posts:
 
 I am an electrical and computer engineer whose research brings together **artificial intelligence, control, and optimization** to make large-scale cyber-physical systems safer, more adaptive, and more resilient. I completed my Ph.D. in Electrical and Computer Engineering at [Virginia Commonwealth University](https://egr.vcu.edu/departments/electrical/) in 2026 under the supervision of Dr. Sherif Abdelwahed.
 
-My work develops hierarchical and constraint-aware learning methods for interconnected urban infrastructure, with applications in smart buildings, intelligent transportation, electric-vehicle charging, microgrids, and smart healthcare. A defining part of my research is end-to-end validation: moving from mathematical models and algorithms to sensing, embedded platforms, data pipelines, and closed-loop experiments on the [OpenCyberCity](https://occtestbed.com/) testbed.
+My work develops hierarchical and constraint-aware learning methods for interconnected urban infrastructure, with applications in smart buildings, intelligent transportation, electric-vehicle charging, microgrids, and smart healthcare. A defining part of my research is end-to-end validation: moving from mathematical models and algorithms to sensing, embedded platforms, data pipelines, and closed-loop experiments on the [OpenCyberCity](https://www.occtestbed.com/) testbed.
 
-<div style="background: linear-gradient(135deg, #0b1f3a 0%, #0f766e 100%); color: #f8fafc; border-radius: 14px; padding: 1.4rem 1.6rem; margin: 1.8rem 0; box-shadow: 0 10px 28px rgba(15, 23, 42, 0.18);">
-  <h3 style="color: #ffffff; margin-top: 0;">Research at a glance</h3>
+**[Visit the OpenCyberCity smart-city testbed →](https://www.occtestbed.com/)**
+
+<div style="clear: both;"></div>
+
+<div style="background: #eef2f5; color: #263746; border: 1px solid #c9d2da; border-left: 5px solid #50677a; border-radius: 6px; padding: 1.25rem 1.5rem; margin: 2rem 0;">
+  <h3 style="color: #263746; margin-top: 0;">Research at a glance</h3>
   <p style="margin-bottom: 0.35rem;"><strong>Methods:</strong> hierarchical and safe reinforcement learning, bi-level optimization, uncertainty-aware forecasting, model predictive control, and anomaly detection.</p>
   <p style="margin-bottom: 0.35rem;"><strong>Systems:</strong> smart cities, buildings, transportation, power and energy systems, IoT, and distributed cyber-physical infrastructure.</p>
   <p style="margin-bottom: 0;"><strong>Impact:</strong> 20+ peer-reviewed papers, 300+ citations, interdisciplinary testbed development, and mentorship of more than 20 students.</p>

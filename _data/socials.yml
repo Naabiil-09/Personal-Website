@@ -5,4 +5,8 @@ linkedin_username: mostafa-zaman-ph-d-43b7baa7
 scholar_userid: Hk4IWoIAAAAJ
 research_gate_profile: Mostafa-Zaman
 orcid_id: 0000-0002-4374-2763
-cv_pdf: /assets/rendercv/rendercv_output/Mostafa_Zaman_CV.pdf
+open_cyber_city:
+  logo: fa-solid fa-city
+  title: OpenCyberCity Testbed
+  url: https://www.occtestbed.com/
+cv_pdf: /assets/pdf/Academic_Mostafa_Zaman_CV.pdf
